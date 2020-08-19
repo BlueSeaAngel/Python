@@ -36,3 +36,29 @@ print(model.predict([100.0]))
 # Imprimir las variables del modelo
 
 print("These are the layer variables: {}".format(l0.get_weights()))
+
+
+# Si uno quisiera crear una red con una capa oculta (2) y una de salida (1) con tres entradas...
+# oculta = keras.layers.Dense(units = 2, input_shape = [3])
+# salida = keras.layers.Dense(units = 1)
+# model = tf.keras.Sequential([oculta, salida])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
